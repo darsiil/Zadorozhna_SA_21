@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container__header">
+        <div class="header__nav">
+          <img src="./img/logo-2 (2) 1.svg" alt="logo" />
+
+          <!-- Menu -->
+          <ul class="header__list">
+            <li><a href="#about">About us</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#enroll">Enroll</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+
+          <!-- Hamburger menu -->
+          <input id="toggle" type="checkbox"></input>
+
+          <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+          </label>
+
+          <div class="nav">
+              <nav>
+                <a href="#about">About us</a>
+                <a href="#categories">Categories</a>
+                <a href="#enroll">Enroll</a>
+                <a href="#contacts">Contacts</a>
+              </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero__main" id="about">
+        <div class="wrapped__wrapped">
+          <div class="wrapped__hero">
+            <h1>
+              We will make you <br />
+              real automotive <br />
+              aces
+            </h1>
+            <p>
+              Unlock your driving potential with our <br />comprehensive range
+              of driving <br />courses
+            </p>
+            <button class="button__apply">Apply</button>
+          </div>
+
+          <div class="hidden__container"></div>
+
+          <div class="hidden__container"></div>
+        </div>
+      </section>
+      <section class="steps">
+        <h2>How to take the first steps to driving?</h2>
+        <div class="steps__container__two">
+          <div class="steps__container">
+            <h3>Undergo a medical examination</h3>
+            <p>
+              get a medical certificate for drivers in one of the specialized
+              institutions
+            </p>
+          </div>
+          <img src="./img/bxs_down-arrow.svg" alt="arrow" />
+          <div class="steps__container">
+            <h3>Prepare the necessary documents</h3>
+            <p>take your passport, identification code and your photo</p>
+          </div>
+          <img src="./img/bxs_down-arrow.svg" alt="arrow" />
+          <div class="steps__container">
+            <h3>Enroll in a study group</h3>
+            <p>contact us and start training already this month</p>
+          </div>
+        </div>
+      </section>
+      <section class="price__size" id="categories">
+        <ul class="list__price">
+          <li>
+            <h2>A</h2>
+            <p>category</p>
+            <p>theoretical</p>
+            <p>course</p>
+            <p class="price__bold">4000₴</p>
+          </li>
+          <li>
+            <h2>A</h2>
+            <p>category</p>
+            <p>practical</p>
+            <p>course</p>
+            <p class="price__bold">4000₴</p>
+          </li>
+          <li>
+            <h2>A</h2>
+            <p>category</p>
+            <p>private</p>
+            <p>lessons</p>
+            <p class="price__bold">300₴</p>
+          </li>
+        </ul>
+        <ul class="list__price">
+          <li>
+            <h2>B</h2>
+            <p>category</p>
+            <p>theoretical</p>
+            <p>course</p>
+            <p class="price__bold">4000₴</p>
+          </li>
+          <li>
+            <h2>B</h2>
+            <p>category</p>
+            <p>practical</p>
+            <p>course</p>
+            <p class="price__bold">5000₴</p>
+          </li>
+          <li>
+            <h2>B</h2>
+            <p>category</p>
+            <p>private</p>
+            <p>lessons</p>
+            <p class="price__bold">350₴</p>
+          </li>
+        </ul>
+        <div class="container__description">
+          <div class="container__magic">
+            <div class="mini__container">
+              <p>Working for more than 5 decades</p>
+            </div>
+
+            <div class="mini__container__second">
+              <p>Transparent prices, no hidden fees</p>
+            </div>
+            <div class="mini__container">
+              <p>Comfort locations - 3 offices in Lviv, pick yourself</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container__magic2">
+          <ul>
+            <li>Working for more than 5 decades</li>
+            <li>Transparent prices, no hidden fees</li>
+            <li>Comfort locations - 3 offices in Lviv, pick yourself</li>
+          </ul>
+        </div>
+
+        <table>
+          <tr>
+              <th>Category</th>
+              <th>Category А</th>
+              <th>Category В</th>
+              <th>Category С</th>
+          </tr>
+          <tr>
+              <td>Type</td>
+              <td>Moto</td>
+              <td>Car</td>
+              <td>Cargo</td>
+          </tr>
+          <tr>
+              <td>Price</td>
+              <td>5000 UAH</td>
+              <td>8000 UAH</td>
+              <td>12000 UAH</td>
+          </tr>
+          <tr>
+              <td class="buy-button"></td>
+              <td class="buy-button"><button>Buy</button></td>
+              <td class="buy-button"><button>Buy</button></td>
+              <td class="buy-button"><button>Buy</button></td>
+          </tr>
+      </table>
+        <div class="video__container">
+          <video controls autoplay loop muted src="./img/video.mp4">
+            Ваш браузер не підтримує відео.
+          </video>
+        </div>
+        <form class="form" id="enroll">
+          <h2>Contact us!</h2>
+          <p type="Name:"><input placeholder="Name"></p>
+          <p type="Email:"><input placeholder="Email"></p>
+          <p type="Message:"><input placeholder="Message..."></p>
+          <button>Send Message</button>
+        </form>
+
+        <div class="img__container">
+          <img
+            class="img__container__css"
+            src="./img/Frame 3.svg"
+            alt="line"
+            style="opacity: 0"
+          />
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <address id="contacts">
+        <div class="social__networking">
+          <div class="avto_ac"><img class="footer__logo" src="./img/logo-4 (2) 1.svg" alt="logo" /></div>
+          <p>
+            We have been training the best drivers <br />
+            for more than 50 years! <br />
+            AvtoAs is an ace among driving schools!
+          </p>
+          <ul class="list__social__networking">
+            <li><img src="./img/Vector.svg" alt="telegram" /></li>
+            <li><img src="./img/Vector(1).svg" alt="instagram" /></li>
+            <li><img src="./img/Vector(2).svg" alt="facebook" /></li>
+          </ul>
+        </div>
+
+        <ul class="list__location">
+          <h3>Our schools</h3>
+          <li>
+            <img src="./img/point.svg" alt="point" />
+            <p>St. Kvitky-Osnovyanenko</p>
+          </li>
+          <li>
+            <img src="./img/point.svg" alt="point" />
+            <p>St. Syhivska</p>
+          </li>
+          <li>
+            <img src="./img/point.svg" alt="point" />
+            <p>Solonka village</p>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
